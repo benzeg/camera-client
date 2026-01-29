@@ -5,7 +5,7 @@ class Client : public INDI::BaseClient
 {
     public:
         Client(const char *my_ccd);
-        virtual ~Client();
+        ~Client();
     
     public:
         void setTemperature(double value);
